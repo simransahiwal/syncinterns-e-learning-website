@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+      <img src="./image/logo.png" class="logo">
+        <ul class="navbar">
+            <li onclick="home1()"><a href="#Home">Home</a></li>
+            <li onclick="courses1()"><a href="#Courses">Courses</a></li>
+            <li onclick="test1()"><a href="#Test">Test</a></li>
+            <li onclick="about1()"><a href="#About Us">About Us</a></li>
+            <li onclick="contact1()"><a href="#Contact">Contact</a></li>
+            <li onclick="login1()" id="login"><a href="#Sign in">Sign in</a></li>
+        </ul>
+        <div class="header-icon">
+            <a href="#" id="user"><img src="./image/user.png"></a>
+            <a href="#" id="heart"><img src="./image/heart.png"></a>
+            <a href="#" id="cart"><img src="./image/cart.png"></a>
+        </div>
+    </header>
+    <hr>
+    <div class="home" id="homes">
+        <p>Online Free Education</p>
+        <h1>Study Spot</h1>
+        <p>Courses | Certificates | Live |24x7</p>
+        <input type="text" placeholder="Search Courses">
+        <div class="book">
+            <img src="https://static.vecteezy.com/system/resources/previews/022/796/223/non_2x/3d-illustration-book-symbol-icon-free-png.png">
+        </div>
+        <h3>Companies and University</h3>
+        <div class="company_university">
+        <div class="companies">
+            <h3>Companies</h3>
+            <ul>
+                <li><img src="https://static.vecteezy.com/system/resources/previews/022/484/503/non_2x/google-lens-icon-logo-symbol-free-png.png"><span>Google</span></li>
+                <li><img src="https://static.vecteezy.com/system/resources/previews/022/101/066/non_2x/meta-logo-transparent-free-png.png"><span>Meta</span></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Microsoft_icon.svg/2048px-Microsoft_icon.svg.png"><span>Microsoft</span></li>
+                <li><img src="https://static.vecteezy.com/system/resources/previews/019/766/223/non_2x/amazon-logo-amazon-icon-transparent-free-png.png"><span>Amazon</span></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQslvsB2JL7G-Q3aK7OCP6om6zfpRBlo-9xJA&usqp=CAU"><span>IBM</span></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Zbivzz-wiQMVGjVf-Jd9JCAQwhw1Rp5EVQ&usqp=CAU"><span>Accenture</span></li>
+                <button>Many More</button>
+            </ul>
+        </div>
+        <div class="companies">
+            <h3>Universities</h3>
+            <ul>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCVQ2X2irBGKhKvTEpjdLdOG7SD-I8eavlaA&usqp=CAU"><span>Harvard University</span></li>
+                <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2_aBSUvIvx_wd66aWsxG8_vUOQtD5G7IaA&usqp=CAU"><span>Stanford University</span></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png"><span>IIT Madras</span></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Seal_of_the_University_of_Michigan.svg/640px-Seal_of_the_University_of_Michigan.svg.png"><span>University of Michigan</span></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/640px-MIT_logo.svg.png"><span>MIT</span></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Duke_University_logo.svg/640px-Duke_University_logo.svg.png"><span>Duke University</span></li>
+                <button>Many More</button>
+            </ul>
+        </div>
+    </div>
+    <h3>Properties</h3>
+    <div class="features">
+        <div class="properties">
+            <img src="https://static.vecteezy.com/system/resources/previews/009/351/708/non_2x/tv-show-icon-sign-design-free-png.png">
+            <p><strong>Free Video Lectures</strong></p>
+            <p>10000+ video lectures available 24x7 hrs</p>
+        </div>
+        <div class="properties">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Big_Tech_collage_2022.png">
+            <p><strong>Placements</strong></p>
+            <p>10000+ students get placed in these companies</p>
+        </div>
+        <div class="properties">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqqTSA0M212nrpljtYCTn10UNT7l2Qa-77yQ&usqp=CAU">
+            <p><strong>Communities</strong></p>
+            <p>10000+ Communities</p>
+            <p>Join a community of over 100 million</p>
+        </div>
+        <div class="properties">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZ_18EQoQCkCLN2rXav_qFAQNxcMuMaIsZQ&usqp=CAU">
+            <p><strong>Help/Support</strong></p>
+            <p>24x7 Support are available</p>
+        </div>
+    </div>
+    </div>
+    <div class="test_certificates" id="tests">
+        <h1 id="learning_test">Test Your Learning</h1>
+        <div class="basic_test">
+        <div class="test">
+           <h3>C</h3>
+           <img src="https://icon-library.com/images/c-language-icon/c-language-icon-10.jpg">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>C++</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/300/non_2x/3d-c-programming-language-logo-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Python</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>HTML</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/299/non_2x/stylized-3d-html-logo-design-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>JavaScript</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/298/non_2x/3d-javascript-logo-design-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+    </div>
+    <div class="basic_test">
+        <div class="test">
+            <h3>CSS</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/301/non_2x/3d-css-icon-design-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Java</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/022/100/945/non_2x/java-logo-transparent-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Bootstrap</h3>
+           <img src="https://static.vecteezy.com/system/resources/previews/012/697/297/non_2x/3d-bootstrap-programming-framework-logo-free-png.png">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Machine Learning</h3>
+           <img src="https://www.lftechnology.com/wp-content/uploads/2020/01/1_k5LiTi5lt_ND02kaBT_SAA.jpeg">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Artificial Intelligence</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5hQyH60EktX_75BhAcQbPrO-VO14MzpK1mA&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+    </div>
+    <div class="basic_test">
+        <div class="test">
+            <h3>Deep learning</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnSgOlZALVKQz9al14oATrVuxm0taGriRtfQ&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Data Structure</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJrjueX6rC_tbxn2vkIqfTT0kO4mZiRICkg&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Algorithms</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEz20fyRbeISr6yRmcttJlXh2Aqy-tN8vZDA&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>Mongo DB</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhuPJNk7ILg1dJgeRJdqUw8eIKHx6mRPmG7g&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+        <div class="test">
+            <h3>PHP</h3>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcVEPxHl0WQbe68CP4OWnK9wT7ss8vh80Uw&usqp=CAU">
+           <p>Time Duration : 180 mins</p>
+           <p>No. Of Questions : 100</p>
+           <button>Start Test</button>
+        </div>
+    </div>
+    <button id="load">Load More</button>
+    </div>
+    <div class="tutorial" id="courses">
+    <h3>Popular Courses</h3>
+    <div class="pop_courses">
+        <div class="courses">
+             <p id="heading"><strong>Python Tutorial</strong></p>
+             <img src="https://images.pond5.com/4k-python-word-programming-language-footage-118643513_prevstill.jpeg">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from MIT</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>C++ Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgsEDBfesyALrA6KPXFyEMiirZT9M9e9c5aQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from Harvard University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>Java Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6gWay0Ko9GnaGbxmB-l3gUrECcT1eO7Fu4g&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from Stanford University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+    </div>
+    <div class="pop_courses">
+        <div class="courses">
+             <p id="heading"><strong>Machine Learning</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSptHNK8GAnwgQm9DkKQIun0vzyOyR6migQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Becomes master of machine learning</p>
+             <p>Best Eductors from University of Michigan</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>Deep Learning</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINQicevV039tYwe6kMGyGoQDd5aft13CChQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Becomes master in Deep Learning</p>
+             <p>Best Eductors from Harvard University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>Artificial Intelligence</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5hQyH60EktX_75BhAcQbPrO-VO14MzpK1mA&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Becomes Master of Artificaial Intelligence</p>
+             <p>Best Eductors from Duke University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+    </div>
+    <div class="pop_courses">
+        <div class="courses">
+             <p id="heading"><strong>HTML Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAANe_qSkabHH5RzolrTuohkmwpUr7ztKmKg&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from IIT Madras</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>CSS Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAZdUCAcTzzGZXXkOw2m5KutNsas3TnJWn1g&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from IIT Madras</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>Javasript Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfJPlnBij1krD7Dl9NHEwBceZK9ZAvgnSvsQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from Duke University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+    </div>
+    <div class="pop_courses">
+        <div class="courses">
+             <p id="heading"><strong>Data Structure</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw57dH0-9aiA5IK16GdlGoZWJ-5x5bhUUpwQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from MIT</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>Algorithms</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTJ8TrFv1kr61zZeROh3BxSFhKtWccWHNjQQ&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from Stanford University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+        <div class="courses">
+             <p id="heading"><strong>LINUX Tutorial</strong></p>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6pifdzoG2jnUesnwz1IVXc9SJ9naI1VyJg&usqp=CAU">
+             <p>Beginners to Advanced level</p>
+             <p>Best Eductors from Duke University</p>
+             <p>10000+ students get enrolled</p>
+             <button>Start</button>
+        </div>
+    </div>
+    <button>Load more</button>
+</div>
+<div class="abouts" id="about">
+    <h1>About</h1>
+    <div class="about_us">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfbPuZhcIR-ECZxT66UKgstHtCf9DlekjOA&usqp=CAU">
+    <h1>We share knowledge with the world</h1>
+</div>
+<div class="info">
+    <div class="infos">
+        <h1>We just keep growing</h1>
+        <p>Our global community and our course catalog get bigger every day. Check out our latest numbers as of March 2023.</p>
+    </div>
+   <div class="basic">
+    <p>50M learners</p>
+    <p>100+ Instructors</p>
+    <p>200+ Courses</p>
+    <p>50 Language</p>
+    <p>10000+ Companies</p>
+   </div>
+</div>
+</div> 
+<div class="contacts" id="contact">
+     <h3>Contact Us</h3>
+     <hr>
+     <p>E.mail :contact@StudySpot.com</p>
+     <p>Phone No. :+919999999999</p>
+     <p>Address : Block E, Street No. 6, ABC Complex, New Delhi, India</p>
+     <hr>
+     <h3>Help & Support</h3>
+     <hr>
+     <div class="pic">
+        <div class="imag">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR7nGWeIDkfPh5bLjNGwudExwgrD3LQ-ElOw&usqp=CAU">
+            <p><strong>Doubt Engine</strong></p>
+            <p>Best in class Doubt Clering Engine based on AI to solve you aa doubts</p>
+        </div>
+        <div class="imag">
+            <img src="https://static.vecteezy.com/system/resources/previews/010/151/863/non_2x/people-icon-sign-symbol-design-free-png.png">
+            <p><strong>200+ Community</strong></p>
+            <p>Experienced and Interative Developers Community.</p>
+        </div>
+        <div class="imag">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/017/378/non_2x/24x7-sign-free-png.png">
+            <p><strong>24x7 Support</strong></p>
+            <p>All time support whenever you need it.</p>
+        </div>
+
+     </div>
+     <div class="doubt">
+      <h3>Doubt Section</h3>
+      <hr>
+      <p>Name:</p>
+      <input type="text" placeholder="Enter Your name here">
+      <p>Category:</p>
+      <input type="text" placeholder="Enter category of question">
+      <p>Elaborate Doubt:</p>
+      <input type="text" placeholder="Explain your doubt in full words" id="elaborate">
+      <p><button>Send Doubt</button></p>
+     </div>
+</div>
+<div class="logs" id="signin">
+    <div class="sign">
+        <h3>Welcome</h3>
+        <p><strong>EMAIL</strong></p>
+        <input type="text" placeholder="name@email.com">
+        <p><strong>PASSWORD</strong></p>
+        <input type="password" placeholder="Enter your password">
+        <p ><button id="sin">Login</button></p>
+        <p id="registers"><strong>New User :</strong><button id="register">Register</button></p>
+    </div>
+</div>
+<footer>
+    <div class="footer_info">
+    <div class="footer1">
+        <ul>
+            <li>Business</li>
+            <li>Teaching</li>
+            <li>Application</li>
+            <li>Help and Support</li>
+        </ul>
+    </div>
+    <div class="footer1">
+        <ul>
+            <li>Career</li>
+            <li>Blog</li>
+            <li>Learners</li>
+            <li>Partners</li>
+        </ul>
+    </div>
+    <div class="footer1">
+        <ul>
+            <li>Terms</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Settings</li>
+            <li>Copyright 2023</li>
+        </ul>
+    </div>
+</div>
+</footer>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+</html>
